@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> my webpage </title>
+    <meta charset="utf-8">
+    <meta name="description" content="webpage, with buttons ">
+    <meta name="keywords" content="Mths,website">
+    <meta name="author" content="Ahmad-El-khawaldeh">
+    <meta name="viewport" content="width=device-width,intial-scale1.0">
+  </head>
+  <body>
+    <h1> Ahmad El-khawaldeh  </h1>
+     <style>
+    h1 {color: orange;}
+  </style>
+     <button type="button" onclick="myFunction3()">background color</button>
+     
+    <script>
+     function myFunction3() {
+     document.body.style.backgroundColor = "red";
+      }
+    </script>
+    
+     <p id="class"> </p>
+     <button type="button" onclick="myFunction1()">button</button>
+     
+      <script>
+     function myFunction1() {
+     document.getElementById("class").innerHTML;"Ahmad ELK";
+      }
+    </script>
+    <br>
+    <br>
+    <button id="hi">A button with event listener</button>
+    <script>
+    document.getElementById("hi").addEventListener("click",myfunction);
+    function myfunction() {
+    alert ("hello world");
+    }
+    </script>
+    </body>
+    
+     
+    
